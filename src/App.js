@@ -4,6 +4,8 @@ import Layout from './components/Layout/Layout';
 
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 
+
+/* Component that returns The Burger Builder Component and Layout Component*/
 class App extends Component {
   render() {
     return (
