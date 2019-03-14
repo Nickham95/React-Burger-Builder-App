@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Burger.module.css';
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
 
-
+/* Function that adds the ingredients that make up burger */
 
 const burger = (props) => {
 return(
