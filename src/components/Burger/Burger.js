@@ -14,6 +14,7 @@ return(
 <BurgerIngredient type="bacon"/>
 <BurgerIngredient type="bacon"/>
 <BurgerIngredient type="salad"/>
+<BurgerIngredient type="salad"/>
 <BurgerIngredient type="bread-bottom"/>
 </div>
 
