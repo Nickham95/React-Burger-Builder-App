@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import Burger from '../../components/Burger/Burger';
 
-
+import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 
  
 /* Component thats holds the Burger component and the  Build Controls Component */
@@ -25,7 +25,7 @@ class BurgerBuilder extends Component{
           /* used aux to return two children (Burger, Build Controls) */
           <div>
              <Burger ingredients={this.state.ingredients} />
-            <div>Build Controls</div>
+            <BuildControls/>
           </div>
          );
     }
