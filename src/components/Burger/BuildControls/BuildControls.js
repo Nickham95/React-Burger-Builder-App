@@ -17,7 +17,7 @@ const controls = [
 
 const buildControls = (props) => (
 //  seperate the array defined above (controls) to render a build control for each element.
-<div className={classes.buildControls}>
+<div className={classes.BuildControls}>
     {controls.map(ctrl => (
         <BuildControl key={ctrl.label} label={ctrl.label}/>
     ))}
