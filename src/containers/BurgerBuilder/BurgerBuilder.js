@@ -23,10 +23,10 @@ class BurgerBuilder extends Component{
         return(
 
           /* used aux to return two children (Burger, Build Controls) */
-          <Aux>
+          <div>
              <Burger ingredients={this.state.ingredients} />
             <div>Build Controls</div>
-          </Aux>
+          </div>
          );
     }
 }
