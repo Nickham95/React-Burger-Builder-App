@@ -18,6 +18,7 @@ const controls = [
 const buildControls = (props) => (
 //  seperate the array defined above (controls) to render a build control for each element.
 <div className={classes.BuildControls}>
+    <p> Current Price:<strong> {props.price.toFixed(2)}</strong></p>
     {controls.map(ctrl => (
         <BuildControl 
         key={ctrl.label} 
